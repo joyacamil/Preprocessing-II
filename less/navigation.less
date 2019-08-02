@@ -10,23 +10,43 @@
     border-bottom: 2px dashed @navigation-border;
     width: 174%;
     margin-left: -40%;
-
+    
+    @media @mobile {
+      width: 100%;
+      flex-flow: column wrap;
+      margin: 0 auto;
+      align-items: between;
+     }
 
     .logo {
       width: 49.5%;
       vertical-align: middle;
       margin-left: 23%;
+
+      @media @mobile {
+        text-align: center;
+        margin: auto;
+      }
+
+      
     }
 
     .nav-bar {
       width: 49.5%;
       margin-right: 20%;
 
+      @media @mobile {
+       text-align: center;  
+       width: 100%; 
+       margin: auto;
+      }
+
       nav {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-around;
         font-size: 1.6rem;
+
 
         a {
           color: black;
