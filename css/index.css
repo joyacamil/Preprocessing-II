@@ -194,7 +194,7 @@ img {
 @media (max-width: 500px) {
   .home .top-header .logo {
     text-align: center;
-    margin: auto;
+    margin-bottom: 3%;
   }
 }
 .home .top-header .nav-bar {
@@ -234,6 +234,7 @@ img {
   .home {
     width: 95vw;
     margin: auto;
+    text-align: center;
   }
 }
 .home .header {
