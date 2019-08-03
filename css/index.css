@@ -341,10 +341,19 @@ img {
 }
 .home .content-pick .destination .btn {
   border-radius: 10px;
-  color: #FFFFFF;
-  background-color: #0f6978;
+  color: white;
+  background-color: #008080;
   font-size: 1.8rem;
   text-align: center;
   padding: 5% 10%;
   width: 82%;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination .btn {
+    border-radius: 10px;
+    color: white;
+    background-color: #17A2B8;
+    width: 100%;
+    padding: 3% 10%;
+  }
 }

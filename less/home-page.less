@@ -115,11 +115,17 @@
       }
 
       .btn {
-        .buttons (@main-bg, @button-bg);
+        .buttons (white,#008080);
         font-size: 1.8rem;
         text-align: center;
         padding: 5% 10%;
         width: 82%;
+
+        @media @mobile {
+          .buttons (white,#17A2B8);
+          width: 100%;
+          padding: 3% 10%;
+        }
       }
     }
   }
